@@ -6,12 +6,12 @@ int add(int, int);
 int main() {
     int num1, num2, result;
 
-    // Prompt user for input
+
     printf("Enter the first number: ");
-    scanf("%d", &num1);  // Read the first number
+    scanf("%d", &num1);
 
     printf("Enter the second number: ");
-    scanf("%d", &num2);  // Read the second number
+    scanf("%d", &num2);
 
     // Function call to add numbers
     result = add(num1, num2);
@@ -24,5 +24,5 @@ int main() {
 
 // Function definition
 int add(int a, int b) {
-    return a + b;  // Return the sum of a and b
+    return a + b;  // Return 
 }
